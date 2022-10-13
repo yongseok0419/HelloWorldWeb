@@ -18,7 +18,7 @@ public class UserController {
 	@RequestMapping("/test")
 	public String main(Model model) {
 		model.addAttribute("username","이용석");
-		model.addAttribute("userage", "25");
+		model.addAttribute("userage", "32");
 		model.addAttribute("address","경기도 의정부시 범골로 137");
 		return "main";	// /WEB-INF/views/" + main + ".jsp";
 	}
